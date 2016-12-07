@@ -1,0 +1,12 @@
+<script>
+  $(document).ready(function($){
+    $('#editable-select').editableSelect();
+  });
+</script>
+<h1> Using Editable-Select</h1>
+
+<%= form_for(editable_url) do |f| %>
+
+<%= f.collection_select(:user_id, User.all, :id, :name, {}, html_options = { id: 'editable-select' }) %>
+
+<% end %>

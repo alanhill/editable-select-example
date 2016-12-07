@@ -1,0 +1,7 @@
+<h1> Not Using Editable-Select</h1>
+
+<%= form_for(no_editable_url) do |f| %>
+
+<%= f.collection_select(:user_id, User.all, :id, :name) %>
+
+<% end %>
