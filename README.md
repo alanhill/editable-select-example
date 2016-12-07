@@ -2,6 +2,7 @@
 
  - Clone the repo (`git clone git@github.com:alanhill/editable-select-example.git`)
  - Start postgresql (Mac: `pg_ctl -D /usr/local/var/postgres start`)
+ - Run `bundle install`
  - `bundle exec rake db:create; bundle exec rake db:migrate; bundle exec rake db:seed`
  - `rails s`
  - Go to localhost:3000
