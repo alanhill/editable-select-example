@@ -1,6 +1,6 @@
 #### Example app of the bug mentioned here https://github.com/indrimuska/jquery-editable-select/issues/18 with jquery-editable-select. 
 
- - Clone the repo (git@github.com:alanhill/editable-select-example.git)
+ - Clone the repo (`git clone git@github.com:alanhill/editable-select-example.git`)
  - Start postgresql (Mac: `pg_ctl -D /usr/local/var/postgres start`)
  - `bundle exec rake db:create; bundle exec rake db:migrate; bundle exec rake db:seed`
  - `rails s`
